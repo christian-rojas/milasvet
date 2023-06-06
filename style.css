@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'light';
+  src: url('bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.list {
+  color: rgb(89, 134, 123);
+  font-size: 16px;
+  font-weight: bold;
+  /* left: 150px; */
+  /* top: 350px; */
+}
+body {
+  height: 100%;
+  background-image: url("./background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .container {
+  display: flex;
+} */
+#scrollspyHeading1 {
+  /* height: 10%; */
+  overflow: auto;
+  height: 80vh;
+  width: auto;
+}
+.scrollspy-example {
+  padding-top: 10%;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  height: 50%;
+  width: 100%;
+  /* background-color: #ffcc00; */
+  text-align: center;
+  padding: 20px;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+.container .row, h3 {
+    padding-bottom: 10px;
+}
+.row img {
+    border-radius: 25px;
+}
+h3 {
+  font-family: bold;
+  font-size: 30px;
+  /* font-weight: bolder; */
+}
+
+iframe {
+  display:block;
+  width:100%;
+  height: 750px;
+}
+
+

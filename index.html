@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Mila's VET</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar-example3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" width="30" height="34" />
+          Mila's VET
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-example2"
+          aria-controls="navbar-example2"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-example2">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#scrollspyHeading1">Servicios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="jumbotron mt-5">
+        <h1 class="display-4">Hola!</h1>
+        <p class="lead">Veterinaria en temuco con mas de 5 años de experiencia</p>
+        <hr class="my-4" />
+        <p>Agenda tú hora!</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#booking" role="button">Agendar</a>
+        </p>
+      </div>
+
+      <div class="row">
+        <h1>Servicios</h1>
+        <div class="col-md-6">
+          Consultas
+          <img src="./consulta.png" width="100%" alt="" />
+        </div>
+        <div class="col-md-6">
+          Vacunas
+          <img src="./vacunas.png" width="100%" alt="" />
+        </div>
+        <div class="col-md-6">
+          Cirugias
+          <img src="./cirugia.png" width="100%" alt="" />
+        </div>
+        <div class="col-md-6">
+          Corte de uñas
+          <img src="./unias.png" width="100%" alt="" />
+        </div>
+      </div>
+
+      <div id="booking" class="row mt-5">
+        <div class="calendly-inline-widget" data-auto-load="false"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+        <script>
+          Calendly.initInlineWidget({
+            url: "https://calendly.com/christian-test/consulta?hide_event_type_details=1&hide_gdpr_banner=1",
+          });
+        </script>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
