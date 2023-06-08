@@ -67,4 +67,16 @@ iframe {
   height: 750px;
 }
 
+.card-body {
+  background-color: aliceblue;
+}
 
+.services {
+  margin-top: 150px;
+  color: #a64c4cdd;
+  font-family: monospace;
+}
+
+.col-md-6 {
+  padding-top: 10vh !important;
+}
